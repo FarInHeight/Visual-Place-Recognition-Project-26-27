@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vpr-course-project"
+version = "0.1.0"
+description = "Visual Place Recognition course project 2026-27"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gdown>=5.2",
+    "numpy>=1.24",
+    "Pillow>=9.5",
+    "scikit-learn>=1.2",
+    "torch>=2.2",
+    "torchvision>=0.17",
+]
+
+[project.scripts]
+vpr-project = "main:main"
+
+[tool.setuptools]
+py-modules = ["download_datasets", "evaluation", "main", "parser", "training", "utils"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["datasets*", "models*"]
