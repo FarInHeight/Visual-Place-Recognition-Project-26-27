@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vpr-course-project"
+name = "vpr-project-2026-27"
 version = "0.1.0"
-description = "Visual Place Recognition course project 2026-27"
+description = "Visual Place Recognition project 2026-27"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

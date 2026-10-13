@@ -1,4 +1,4 @@
-"""Main command-line entry point for the VPR course-project experiments."""
+"""Main command-line entry point for the VPR project experiments."""
 
 import json
 
