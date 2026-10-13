@@ -1,4 +1,4 @@
-# Visual Place Recognition Course Project
+# Visual Place Recognition Course Project (a.y. 2026-27)
 
 > [!WARNING]
 > **Student starter repository:** some parts are intentionally incomplete and
